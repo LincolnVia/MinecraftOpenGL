@@ -363,7 +363,10 @@ CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o: \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/15.2.1/bits/fstream.tcc /usr/include/c++/15.2.1/sstream \
  /usr/include/c++/15.2.1/bits/sstream.tcc \
- /usr/include/c++/15.2.1/iostream \
+ /usr/include/c++/15.2.1/iostream /usr/include/c++/15.2.1/map \
+ /usr/include/c++/15.2.1/bits/stl_tree.h \
+ /usr/include/c++/15.2.1/bits/stl_map.h \
+ /usr/include/c++/15.2.1/bits/stl_multimap.h \
  /home/volt/Programming/opengl/include/shader.h \
  /home/volt/Programming/opengl/include/camera.h \
  /home/volt/Programming/opengl/include/basicVerts.h \

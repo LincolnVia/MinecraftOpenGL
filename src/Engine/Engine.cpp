@@ -77,7 +77,7 @@ void Engine::init() {
 
    
     world.Generate();
-    
+    world.PrintChunks();
  }
 
 

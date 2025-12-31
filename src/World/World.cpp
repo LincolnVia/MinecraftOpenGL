@@ -12,47 +12,23 @@ World::~World()
 
 void World::Generate()
 {
-      // Generate Center Chunk
-       int center = 0;
-       ChunkData templateChunk = GenerateChunk();
-       templateChunk.chunkPos =  glm::vec2(center * CHUNK_X, center * CHUNK_Z);  
-       chunkList.emplace(center,templateChunk);
-        
-
-
-      for(int layer = 0; layer < worldSize; layer++)
-      {
-        for(int x = -layer; x <= layer; x++) 
+    // Generate all chunks in a grid
+    for(int x = -5; x <= 5; x++)
+    {
+        for(int z = -5; z <= 5; z++)
         {
-          for(int z = -layer; z <= layer; z++) 
-            {
-              if (layer == 0 && x == 0 && z == 0) continue;
-              if(chunkExists(x, z)) continue;
-              ChunkData chunk = GenerateChunkAt(x, z);
-              chunkList.emplace(chunkKey(x,z),chunk);
-            }
+            ChunkData chunk = GenerateChunkAt(x , z );
+             chunkList[{x, z}] = std::move(chunk);  // Use operator[] instead of emplace
+            printf("%d,%d \n",chunkKey(x,z));
         }
-      }
-
-
-      
-  
-  
-      //Positive Chunks 
-      for (int x = -worldSize; x <= worldSize; ++x){
-          for (int z = -worldSize; z <= worldSize; ++z)
-           {
-              if (x == 0 && z == 0) continue; // skip center
-              ChunkData chunk = GenerateChunkAt(x, z);
-               chunkList.emplace(chunkKey(x,z),chunk);
-            }
-      }
-
-
+    }
 }
+
+
+
 bool World::chunkExists(int x, int z)
 {
-  if(chunkList.find(chunkKey(x,  z)) != chunkList.end()) {return true;}
+  if (chunkList.find({x, z}) != chunkList.end()) {return true;}
   else return false;
 }
 
@@ -60,7 +36,7 @@ bool World::chunkExists(int x, int z)
 ChunkData World::GenerateChunkAt(int x, int z)
 {
   ChunkData templateChunk = GenerateChunk();
-  templateChunk.chunkPos =  glm::vec2(x * CHUNK_X, z* CHUNK_Z) ;
+  templateChunk.chunkPos =  glm::vec2(x , z) ;
   return templateChunk;
 }
 
@@ -107,26 +83,28 @@ for (int z = 0; z < CHUNK_Z; ++z){
 
 void World::Render(Shader* shader, glm::vec3 playerPos)
 {
-glm::ivec2 playerChunk = glm::ivec2(floor(playerPos.x / CHUNK_X), floor(playerPos.z / CHUNK_Z));
-int startX = playerChunk.x - renderDistance;
-int endX   = playerChunk.x + renderDistance;
-int startZ = playerChunk.y - renderDistance;
-int endZ   = playerChunk.y + renderDistance;
-
-for (int x = startX; x <= endX; ++x)
-for (int z = startZ; z <= endZ; ++z)
-{
-    if (!chunkExists(x, z)) continue;
-
-    ChunkData& chunkData = chunkList[chunkKey(x, z)];
-    glm::mat4 model = glm::mat4(1.0f);
-    model = glm::translate(model, glm::vec3(chunkData.chunkPos.x, 0, chunkData.chunkPos.y));
-    shader->setMat4("model", model);
-
-    glBindVertexArray(chunkData.chunkVAO);
-    glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(chunkData.chunkIndices.size()), GL_UNSIGNED_INT, 0);
-    glBindVertexArray(0);
-}
+    glm::ivec2 playerChunk = glm::ivec2(floor(playerPos.x / CHUNK_X), floor(playerPos.z / CHUNK_Z));
+    
+    int startX = playerChunk.x - renderDistance;
+    int endX   = playerChunk.x + renderDistance;
+    int startZ = playerChunk.y - renderDistance;
+    int endZ   = playerChunk.y + renderDistance;
+    
+    for (int x = startX; x <= endX; ++x)
+    for (int z = startZ; z <= endZ; ++z)
+    {
+        // Generate chunk if it doesn't exist
+        if (!chunkExists(x, z)) {
+          ChunkData chunk = GenerateChunkAt(x, z);
+          chunkList[{x, z}] = std::move(chunk);
+          // Use operator[] instead of emplace
+        }        
+        ChunkData& chunkData =  chunkList[{x, z}];
+        glm::mat4 model = glm::mat4(1.0f);
+        model = glm::translate(model, glm::vec3(chunkData.chunkPos.x * CHUNK_X, 0, chunkData.chunkPos.y * CHUNK_Z));
+        shader->setMat4("model", model);
+        glBindVertexArray(chunkData.chunkVAO);
+        glDrawElements(GL_TRIANGLES, static_cast<GLsizei>(chunkData.chunkIndices.size()), GL_UNSIGNED_INT, 0);
+        glBindVertexArray(0);
     }
-
-
+}

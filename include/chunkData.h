@@ -83,10 +83,9 @@ static const glm::vec3 negZVerts[4] = {
 
 inline int64_t chunkKey(int x, int z)
 {
-    constexpr int64_t OFFSET = 1LL << 31;  // make x and z positive
-    return ((int64_t)(x + OFFSET) << 32) | (uint32_t)(z + OFFSET);
+    // Use upper 32 bits for x, lower 32 bits for z
+    return (static_cast<int64_t>(x) << 32) | (static_cast<int64_t>(z) & 0xFFFFFFFFLL);
 }
-
 
 inline void emitFace(const glm::vec3* faceVerts,
               const glm::vec3& normal,
