@@ -7,8 +7,14 @@ voxel: \
   CMakeFiles/voxel.dir/src/glad.c.o \
   CMakeFiles/voxel.dir/src/basicVerts.cpp.o \
   CMakeFiles/voxel.dir/src/World/World.cpp.o \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a \
+  CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o \
+  CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o \
+  CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o \
+  CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o \
+  CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o \
+  CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o \
   /usr/lib/libglfw.so.3.4 \
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a \
   /usr/lib/libGLX.so \
   /usr/lib/libOpenGL.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
@@ -60,9 +66,21 @@ CMakeFiles/voxel.dir/src/basicVerts.cpp.o:
 
 CMakeFiles/voxel.dir/src/World/World.cpp.o:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a:
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o:
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o:
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o:
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o:
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o:
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o:
 
 /usr/lib/libglfw.so.3.4:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libdl.a:
 
 /usr/lib/libGLX.so:
 

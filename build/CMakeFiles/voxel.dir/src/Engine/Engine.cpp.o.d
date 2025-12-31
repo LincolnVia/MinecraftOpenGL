@@ -373,4 +373,8 @@ CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o: \
  /home/volt/Programming/opengl/include/stb_image.h \
  /usr/include/c++/15.2.1/stdlib.h \
  /home/volt/Programming/opengl/include/texture.h \
- /home/volt/Programming/opengl/include/Engine.h
+ /home/volt/Programming/opengl/include/Engine.h \
+ /home/volt/Programming/opengl/thirdparty/imgui/imgui.h \
+ /home/volt/Programming/opengl/thirdparty/imgui/imconfig.h \
+ /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_glfw.h \
+ /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_opengl3.h

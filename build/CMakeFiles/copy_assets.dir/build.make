@@ -67,7 +67,7 @@ include CMakeFiles/copy_assets.dir/compiler_depend.make
 include CMakeFiles/copy_assets.dir/progress.make
 
 CMakeFiles/copy_assets:
-	/usr/bin/cmake -E copy_directory /home/volt/Programming/opengl/assets /home/volt/Programming/opengl/build/assets
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Copying assets to build directory"
 	/usr/bin/cmake -E copy_directory /home/volt/Programming/opengl/assets /home/volt/Programming/opengl/build/assets
 
 CMakeFiles/copy_assets.dir/codegen:

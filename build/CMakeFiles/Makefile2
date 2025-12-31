@@ -88,12 +88,12 @@ clean: CMakeFiles/copy_assets.dir/clean
 CMakeFiles/voxel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel.dir/build.make CMakeFiles/voxel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel.dir/build.make CMakeFiles/voxel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target voxel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Built target voxel"
 .PHONY : CMakeFiles/voxel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/voxel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/volt/Programming/opengl/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/volt/Programming/opengl/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/voxel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/volt/Programming/opengl/build/CMakeFiles 0
 .PHONY : CMakeFiles/voxel.dir/rule
@@ -105,7 +105,7 @@ voxel: CMakeFiles/voxel.dir/rule
 # codegen rule for target.
 CMakeFiles/voxel.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/voxel.dir/build.make CMakeFiles/voxel.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target voxel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=2,3,4,5,6,7,8,9,10,11,12,13 "Finished codegen for target voxel"
 .PHONY : CMakeFiles/voxel.dir/codegen
 
 # clean rule for target.
@@ -120,12 +120,12 @@ CMakeFiles/voxel.dir/clean:
 CMakeFiles/copy_assets.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num= "Built target copy_assets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=1 "Built target copy_assets"
 .PHONY : CMakeFiles/copy_assets.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/copy_assets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/volt/Programming/opengl/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/volt/Programming/opengl/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/copy_assets.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/volt/Programming/opengl/build/CMakeFiles 0
 .PHONY : CMakeFiles/copy_assets.dir/rule
@@ -137,7 +137,7 @@ copy_assets: CMakeFiles/copy_assets.dir/rule
 # codegen rule for target.
 CMakeFiles/copy_assets.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/copy_assets.dir/build.make CMakeFiles/copy_assets.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num= "Finished codegen for target copy_assets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=1 "Finished codegen for target copy_assets"
 .PHONY : CMakeFiles/copy_assets.dir/codegen
 
 # clean rule for target.

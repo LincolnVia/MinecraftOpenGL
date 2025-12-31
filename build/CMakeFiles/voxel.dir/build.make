@@ -142,13 +142,103 @@ CMakeFiles/voxel.dir/src/World/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel.dir/src/World/World.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/volt/Programming/opengl/src/World/World.cpp -o CMakeFiles/voxel.dir/src/World/World.cpp.s
 
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o: CMakeFiles/voxel.dir/flags.make
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o: /home/volt/Programming/opengl/thirdparty/imgui/imgui.cpp
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o: CMakeFiles/voxel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o -MF CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o.d -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui.cpp
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/volt/Programming/opengl/thirdparty/imgui/imgui.cpp > CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.i
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/volt/Programming/opengl/thirdparty/imgui/imgui.cpp -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.s
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o: CMakeFiles/voxel.dir/flags.make
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o: /home/volt/Programming/opengl/thirdparty/imgui/imgui_draw.cpp
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o: CMakeFiles/voxel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o -MF CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o.d -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui_draw.cpp
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/volt/Programming/opengl/thirdparty/imgui/imgui_draw.cpp > CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.i
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/volt/Programming/opengl/thirdparty/imgui/imgui_draw.cpp -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.s
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o: CMakeFiles/voxel.dir/flags.make
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o: /home/volt/Programming/opengl/thirdparty/imgui/imgui_widgets.cpp
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o: CMakeFiles/voxel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o -MF CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui_widgets.cpp
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/volt/Programming/opengl/thirdparty/imgui/imgui_widgets.cpp > CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/volt/Programming/opengl/thirdparty/imgui/imgui_widgets.cpp -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o: CMakeFiles/voxel.dir/flags.make
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o: /home/volt/Programming/opengl/thirdparty/imgui/imgui_tables.cpp
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o: CMakeFiles/voxel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o -MF CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o.d -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui_tables.cpp
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/volt/Programming/opengl/thirdparty/imgui/imgui_tables.cpp > CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.i
+
+CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/volt/Programming/opengl/thirdparty/imgui/imgui_tables.cpp -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.s
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/voxel.dir/flags.make
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o: /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/voxel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_glfw.cpp
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.i
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.s
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/voxel.dir/flags.make
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o: /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/voxel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_opengl3.cpp
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.s
+
 # Object files for target voxel
 voxel_OBJECTS = \
 "CMakeFiles/voxel.dir/main.cpp.o" \
 "CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o" \
 "CMakeFiles/voxel.dir/src/glad.c.o" \
 "CMakeFiles/voxel.dir/src/basicVerts.cpp.o" \
-"CMakeFiles/voxel.dir/src/World/World.cpp.o"
+"CMakeFiles/voxel.dir/src/World/World.cpp.o" \
+"CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o" \
+"CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o"
 
 # External object files for target voxel
 voxel_EXTERNAL_OBJECTS =
@@ -158,13 +248,19 @@ voxel: CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o
 voxel: CMakeFiles/voxel.dir/src/glad.c.o
 voxel: CMakeFiles/voxel.dir/src/basicVerts.cpp.o
 voxel: CMakeFiles/voxel.dir/src/World/World.cpp.o
+voxel: CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o
+voxel: CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o
+voxel: CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o
+voxel: CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o
+voxel: CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o
+voxel: CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o
 voxel: CMakeFiles/voxel.dir/build.make
 voxel: CMakeFiles/voxel.dir/compiler_depend.ts
 voxel: /usr/lib/libglfw.so.3.4
 voxel: /usr/lib/libGLX.so
 voxel: /usr/lib/libOpenGL.so
 voxel: CMakeFiles/voxel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable voxel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/volt/Programming/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable voxel"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/voxel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,32 +1,68 @@
 [
 {
   "directory": "/home/volt/Programming/opengl/build",
-  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/main.cpp.o -c /home/volt/Programming/opengl/main.cpp",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/main.cpp.o -c /home/volt/Programming/opengl/main.cpp",
   "file": "/home/volt/Programming/opengl/main.cpp",
   "output": "CMakeFiles/voxel.dir/main.cpp.o"
 },
 {
   "directory": "/home/volt/Programming/opengl/build",
-  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o -c /home/volt/Programming/opengl/src/Engine/Engine.cpp",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o -c /home/volt/Programming/opengl/src/Engine/Engine.cpp",
   "file": "/home/volt/Programming/opengl/src/Engine/Engine.cpp",
   "output": "CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o"
 },
 {
   "directory": "/home/volt/Programming/opengl/build",
-  "command": "/usr/bin/cc  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src  -o CMakeFiles/voxel.dir/src/glad.c.o -c /home/volt/Programming/opengl/src/glad.c",
+  "command": "/usr/bin/cc  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends  -o CMakeFiles/voxel.dir/src/glad.c.o -c /home/volt/Programming/opengl/src/glad.c",
   "file": "/home/volt/Programming/opengl/src/glad.c",
   "output": "CMakeFiles/voxel.dir/src/glad.c.o"
 },
 {
   "directory": "/home/volt/Programming/opengl/build",
-  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/src/basicVerts.cpp.o -c /home/volt/Programming/opengl/src/basicVerts.cpp",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/src/basicVerts.cpp.o -c /home/volt/Programming/opengl/src/basicVerts.cpp",
   "file": "/home/volt/Programming/opengl/src/basicVerts.cpp",
   "output": "CMakeFiles/voxel.dir/src/basicVerts.cpp.o"
 },
 {
   "directory": "/home/volt/Programming/opengl/build",
-  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/src/World/World.cpp.o -c /home/volt/Programming/opengl/src/World/World.cpp",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/src/World/World.cpp.o -c /home/volt/Programming/opengl/src/World/World.cpp",
   "file": "/home/volt/Programming/opengl/src/World/World.cpp",
   "output": "CMakeFiles/voxel.dir/src/World/World.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui.cpp",
+  "file": "/home/volt/Programming/opengl/thirdparty/imgui/imgui.cpp",
+  "output": "CMakeFiles/voxel.dir/thirdparty/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui_draw.cpp",
+  "file": "/home/volt/Programming/opengl/thirdparty/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/voxel.dir/thirdparty/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui_widgets.cpp",
+  "file": "/home/volt/Programming/opengl/thirdparty/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/voxel.dir/thirdparty/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/imgui_tables.cpp",
+  "file": "/home/volt/Programming/opengl/thirdparty/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/voxel.dir/thirdparty/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_glfw.cpp",
+  "file": "/home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_glfw.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends -std=gnu++17 -o CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_opengl3.cpp",
+  "file": "/home/volt/Programming/opengl/thirdparty/imgui/backends/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/voxel.dir/thirdparty/imgui/backends/imgui_impl_opengl3.cpp.o"
 }
 ]

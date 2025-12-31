@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src
+C_INCLUDES = -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src
+CXX_INCLUDES = -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -I/home/volt/Programming/opengl/thirdparty/imgui -I/home/volt/Programming/opengl/thirdparty/imgui/backends
 
 CXX_FLAGS = -std=gnu++17
 
