@@ -1,0 +1,60 @@
+{
+	"parent": "minecraft:block/stairs",
+	"textures": {
+		"particle": "#side",
+		"overlay": "block/_bdc/monster_egg",
+		"overlay_stair": "block/_bdc/monster_egg_stair",
+		"overlay_slab": "block/_bdc/monster_egg_slab"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 8, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#top" },
+				"north": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "north" },
+				"south": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "south" },
+				"west": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "west" },
+				"east": { "uv": [ 0, 8, 16, 16 ], "texture": "#side", "cullface": "east" }
+			}
+		},
+		{
+			"from": [ 8, 8, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"up": { "uv": [ 8, 0, 16, 16 ], "texture": "#top", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 8, 8 ], "texture": "#side", "cullface": "north" },
+				"south": { "uv": [ 8, 0, 16, 8 ], "texture": "#side", "cullface": "south" },
+				"west": { "uv": [ 0, 0, 16, 8 ], "texture": "#side" },
+				"east": { "uv": [ 0, 0, 16, 8 ], "texture": "#side", "cullface": "east" }
+			}
+		},
+		{
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 16.01, 16.01, 16.01 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay_slab", "rotation": 270 },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay_stair" },
+				"south": { "uv": [ 16, 0, 0, 16 ], "texture": "#overlay_stair" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay_slab" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" }
+			}
+		},
+		{
+			"from": [ 7.99, 7.99, -0.01 ],
+			"to": [ 16.01, 16.01, 16.01 ],
+			"faces": {
+				"west": { "uv": [ 0, 7.99, 16, 16 ], "texture": "#overlay_slab" }
+			}
+		},
+		{
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 8.01, 8.01, 16.01 ],
+			"faces": {
+				"up": { "uv": [ 0, 8, 16, 16 ], "texture": "#overlay_slab", "rotation": 270 }
+			}
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/chiseled_bookshelf_empty",
+		"texture": "block/chiseled_bookshelf_occupied"
+	},
+	"elements": [
+		{
+			"from": [ 6.25, 1, 1 ],
+			"to": [ 9.75, 7, 2 ],
+			"faces": {
+				"north": { "uv": [ 6.25, 9, 9.75, 15 ], "texture": "#texture", "cullface": "north" }
+			}
+		}
+	]
+}

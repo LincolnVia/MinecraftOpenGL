@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/wall_inventory",
+    "textures": {
+        "wall": "minecraft:block/mud_bricks",
+        "wall_top": "minecraft:block/packed_mud"
+    }
+}

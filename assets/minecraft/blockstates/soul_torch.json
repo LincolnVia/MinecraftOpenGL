@@ -1,0 +1,6 @@
+{
+	"multipart": [
+		{ "apply": { "model": "block/soul_torch" } },
+		{ "apply": { "model": "block/_bdc/soul_torch_flame" } }
+	]
+}

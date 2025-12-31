@@ -1,0 +1,6 @@
+{
+"parent": "minecraft:item/_bdc/infested_slab",
+	"textures": {
+		"texture": "minecraft:block/weathered_cut_copper"
+	}
+}

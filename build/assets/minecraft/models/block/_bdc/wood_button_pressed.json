@@ -1,0 +1,20 @@
+{
+	"__comment": "Designed by HanFox - http://bdcraft.net",
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"from": [ 5, 0, 6 ],
+			"to": [ 11, 1, 10 ],
+			"faces": {
+				"down": { "uv": [ 10, 12, 16, 16 ], "texture": "#texture", "cullface": "down" },
+				"up": { "uv": [ 10, 12, 16, 16 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 16, 11, 10, 10 ], "texture": "#texture", "rotation": 180 },
+				"south": { "uv": [ 16, 12, 10, 11 ], "texture": "#texture" },
+				"west": { "uv": [ 4, 12, 5, 16 ], "texture": "#texture", "rotation": 90 },
+				"east": { "uv": [ 6, 16, 5, 12 ], "texture": "#texture", "rotation": 90 }
+			}
+		}
+	]
+}

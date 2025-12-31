@@ -1,0 +1,10 @@
+{
+	"__comment": "Designed by BDcraft - https://bdcraft.net",
+	"parent": "minecraft:block/copper_trapdoor_open",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#texture",
+		"texture": "minecraft:block/oxidized_copper_trapdoor",
+		"door": "minecraft:block/oxidized_copper_door_top"
+	}
+}

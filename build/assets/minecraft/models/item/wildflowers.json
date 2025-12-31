@@ -1,0 +1,9 @@
+{
+    "__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+    "parent": "minecraft:item/pink_petals",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#flowerbed",
+        "flowerbed": "block/wildflowers"
+    }
+}

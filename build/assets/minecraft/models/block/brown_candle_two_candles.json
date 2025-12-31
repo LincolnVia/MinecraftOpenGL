@@ -1,0 +1,75 @@
+{
+	"__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/candle",
+		"all": "block/_bdc/candles_01"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 5, 0, 7 ],
+			"to": [ 7, 5, 9 ],
+			"faces": {
+				"down": { "uv": [ 4, 14, 6, 16 ], "texture": "#all", "cullface": "down" },
+				"up": { "uv": [ 4, 6, 6, 8 ], "texture": "#all" },
+				"north": { "uv": [ 4, 8, 6, 13 ], "texture": "#all" },
+				"south": { "uv": [ 4, 8, 6, 13 ], "texture": "#all" },
+				"west": { "uv": [ 4, 8, 6, 13 ], "texture": "#all" },
+				"east": { "uv": [ 4, 8, 6, 13 ], "texture": "#all" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 5.5, 5, 8 ],
+			"to": [ 6.5, 6, 8.001 ],
+			"rotation": { "origin": [ 6, 5, 8 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 5, 1, 6 ], "texture": "#all" },
+				"south": { "uv": [ 1, 5, 0, 6 ], "texture": "#all" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 5.5, 5, 8 ],
+			"to": [ 6.5, 6, 8.001 ],
+			"rotation": { "origin": [ 6, 5, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 0, 5, 1, 6 ], "texture": "#all" },
+				"south": { "uv": [ 1, 5, 0, 6 ], "texture": "#all" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 9, 0, 6 ],
+			"to": [ 11, 6, 8 ],
+			"faces": {
+				"down": { "uv": [ 4, 14, 6, 16 ], "texture": "#all", "cullface": "down" },
+				"up": { "uv": [ 4, 6, 6, 8 ], "texture": "#all" },
+				"north": { "uv": [ 4, 8, 6, 14 ], "texture": "#all" },
+				"south": { "uv": [ 4, 8, 6, 14 ], "texture": "#all" },
+				"west": { "uv": [ 4, 8, 6, 14 ], "texture": "#all" },
+				"east": { "uv": [ 4, 8, 6, 14 ], "texture": "#all" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 9.5, 6, 7 ],
+			"to": [ 10.5, 7, 7.001 ],
+			"rotation": { "origin": [ 10, 6, 7 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 5, 1, 6 ], "texture": "#all" },
+				"south": { "uv": [ 0, 5, 1, 6 ], "texture": "#all" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 9.5, 6, 7 ],
+			"to": [ 10.5, 7, 7.001 ],
+			"rotation": { "origin": [ 10, 6, 7 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 0, 5, 1, 6 ], "texture": "#all" },
+				"south": { "uv": [ 0, 5, 1, 6 ], "texture": "#all" }
+			}
+		}
+	]
+}

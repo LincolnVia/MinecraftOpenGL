@@ -1,0 +1,30 @@
+{
+	"__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/small_dripleaf_stem_bottom",
+		"stem": "block/small_dripleaf_stem_bottom"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 0, 0, 8 ],
+			"to": [ 16, 16, 8.001 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45 },
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+			}
+		},
+		{
+			"from": [ 0, 0, 7.9989 ],
+			"to": [ 16, 16, 7.9999 ],
+			"rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45 },
+			"shade": false,
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" }
+			}
+		}
+	]
+}

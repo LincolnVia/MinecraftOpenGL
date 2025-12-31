@@ -1,0 +1,9 @@
+{
+  "__comment": "Designed by Sphax with Cubik Studio - https://cubik.studio",
+  "parent": "minecraft:item/_bdc/chain",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "#texture",
+    "texture": "minecraft:block/copper_chain"
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/volt/Programming/opengl/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

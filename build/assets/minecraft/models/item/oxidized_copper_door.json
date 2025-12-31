@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by Sphax with BDcraft Cubik PRO 0.76 Beta - http://bdcraft.net",
+	"parent": "minecraft:item/copper_door",
+	"textures": {
+		"bottom": "minecraft:block/oxidized_copper_door_bottom",
+		"top": "minecraft:block/oxidized_copper_door_top"
+	}
+}

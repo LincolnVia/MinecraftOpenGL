@@ -1,0 +1,19 @@
+{
+    "multipart": [
+        {
+            "apply": { "model": "block/_bdc/plank/mangrove/planks_mangrove_edges" }
+        },
+        {
+            "apply": [
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_1" },
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_2" },
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_3" },
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_4" },
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_5" },
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_6" },
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_7" },
+				{ "model": "block/_bdc/plank/mangrove/planks_mangrove_8" }
+			]
+        }
+    ]
+}

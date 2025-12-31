@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by BDcraft - https://bdcraft.net",
+	"parent": "minecraft:item/waxed_copper_trapdoor",
+	"textures": {
+		"texture": "minecraft:block/weathered_copper_trapdoor",
+		"door": "minecraft:block/weathered_copper_door_top"
+	}
+}

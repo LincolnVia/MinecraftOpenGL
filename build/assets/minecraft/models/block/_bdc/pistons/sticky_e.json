@@ -1,0 +1,6 @@
+{
+    "parent": "block/_bdc/pistons/base_e",
+    "textures": {
+        "platform": "block/piston_top_sticky"
+    }
+}

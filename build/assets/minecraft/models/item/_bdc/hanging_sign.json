@@ -1,0 +1,95 @@
+{
+  "__comment": "Model by HanFox - BDcraft.net.",
+  "gui_light": "front",
+  "textures": {
+    "particle": "#texture",
+    "chain": "minecraft:item/iron_chain"
+  },
+  "elements": [
+    {
+      "from": [ -4, -2, 7 ],
+      "to": [ 20, 10, 9 ],
+      "faces": {
+        "down": { "uv": [ 1, 0, 13, 1 ], "texture": "#texture", "rotation": 180 },
+        "up": { "uv": [ 1, 0, 13, 1 ], "texture": "#texture", "rotation": 180 },
+        "north": { "uv": [ 1, 1, 13, 7 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 7, 13, 13 ], "texture": "#texture" },
+        "west": { "uv": [ 0, 7, 1, 13 ], "texture": "#texture" },
+        "east": { "uv": [ 0, 1, 1, 7 ], "texture": "#texture" }
+      }
+    },
+    {
+      "from": [ -4, 14, 7 ],
+      "to": [ 20, 16, 9 ],
+      "faces": {
+        "down": { "uv": [ 1, 13, 13, 14 ], "texture": "#texture" },
+        "up": { "uv": [ 1, 13, 13, 14 ], "texture": "#texture" },
+        "north": { "uv": [ 1, 13, 13, 14 ], "texture": "#texture" },
+        "south": { "uv": [ 1, 13, 13, 14 ], "texture": "#texture" },
+        "west": { "uv": [ 0, 13, 1, 14 ], "texture": "#texture" },
+        "east": { "uv": [ 0, 13, 1, 14 ], "texture": "#texture" }
+      }
+    },
+    {
+      "from": [ 16, 12, 8 ],
+      "to": [ 18, 14, 8.001 ],
+      "rotation": { "origin": [ 17, 12, 8 ], "axis": "y", "angle": 45 },
+      "faces": {
+        "north": { "uv": [ 0, 1, 3, 4 ], "texture": "#chain" },
+        "south": { "uv": [ 0, 1, 3, 4 ], "texture": "#chain" }
+      }
+    },
+    {
+      "from": [ 17, 10, 7 ],
+      "to": [ 17.001, 13, 9 ],
+      "rotation": { "origin": [ 17, 10, 8 ], "axis": "y", "angle": 45 },
+      "faces": {
+        "west": { "uv": [ 3, 3, 6, 7 ], "texture": "#chain" },
+        "east": { "uv": [ 3, 3, 6, 7 ], "texture": "#chain" }
+      }
+    },
+    {
+      "from": [ -2, 12, 8 ],
+      "to": [ 0, 14, 8.001 ],
+      "rotation": { "origin": [ -1, 12, 8 ], "axis": "y", "angle": 45 },
+      "faces": {
+        "north": { "uv": [ 0, 1, 3, 4 ], "texture": "#chain" },
+        "south": { "uv": [ 0, 1, 3, 4 ], "texture": "#chain" }
+      }
+    },
+    {
+      "from": [ -1, 10, 7 ],
+      "to": [ -0.999, 13, 9 ],
+      "rotation": { "origin": [ -1, 10, 8 ], "axis": "y", "angle": 45 },
+      "faces": {
+        "west": { "uv": [ 3, 3, 6, 7 ], "texture": "#chain" },
+        "east": { "uv": [ 3, 3, 6, 7 ], "texture": "#chain" }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation":  [ 0, 115, 0 ],
+      "translation":  [ 0, 3.5, 1.75 ],
+      "scale":  [ 0.4, 0.4, 0.4 ]
+    },
+    "firstperson_righthand": {
+      "rotation":  [ -3, 94, 0 ],
+      "translation":  [ 0, 3, 0 ],
+      "scale":  [ 0.4, 0.4, 0.4 ]
+    },
+    "gui": {
+      "rotation":  [ 0, 180, 0 ],
+      "translation":  [ 0, 0, 0 ],
+      "scale":  [ 0.5, 0.5, 0.5 ]
+    },
+    "ground": {
+      "translation":  [ 0, 3, 0 ],
+      "scale":  [ 0.25, 0.25, 0.25 ]
+    },
+    "fixed": {
+      "translation":  [ 0, 0.5, 0.5 ],
+      "scale":  [ 0.5, 0.5, 0.5 ]
+    }
+  }
+}

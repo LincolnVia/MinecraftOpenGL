@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/voxel.dir/link.d CMakeFiles/voxel.dir/main.cpp.o CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o CMakeFiles/voxel.dir/src/glad.c.o CMakeFiles/voxel.dir/src/basicVerts.cpp.o CMakeFiles/voxel.dir/src/World/World.cpp.o -o voxel  -ldl /usr/lib/libglfw.so.3.4 /usr/lib/libGLX.so /usr/lib/libOpenGL.so

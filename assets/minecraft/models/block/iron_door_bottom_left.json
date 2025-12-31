@@ -1,0 +1,116 @@
+{
+	"__comment": "Designed by Sphax with BDcraft Cubik PRO 0.76 Beta - http://bdcraft.net",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#bottom",
+		"bottom": "minecraft:block/iron_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [ 0.5, 0, 0 ],
+			"to": [ 2.5, 16, 3 ],
+			"faces": {
+				"down": { "uv": [ 14.5, 7.5, 16, 9.5 ], "texture": "#bottom" },
+				"north": { "uv": [ 0, 0, 0.5, 16 ], "texture": "#bottom" },
+				"south": { "uv": [ 0, 2, 3, 2.5 ], "texture": "#bottom" },
+				"west": { "uv": [ 0, 0, 3, 16 ], "texture": "#bottom" },
+				"east": { "uv": [ 3, 0, 0, 16 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 0.5, 10, 3 ],
+			"to": [ 2.5, 12, 13 ],
+			"faces": {
+				"down": { "uv": [ 0, 2, 3, 2.5 ], "texture": "#bottom" },
+				"up": { "uv": [ 0, 2, 3, 2.5 ], "texture": "#bottom" },
+				"west": { "uv": [ 3, 4, 13, 6 ], "texture": "#bottom" },
+				"east": { "uv": [ 13, 4, 3, 6 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 0.5, 0, 13 ],
+			"to": [ 2.5, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 14.5, 7.5, 16, 9.5 ], "texture": "#bottom" },
+				"north": { "uv": [ 3, 2, 0, 2.5 ], "texture": "#bottom" },
+				"south": { "uv": [ 14.5, 2.5, 16, 4.5 ], "texture": "#bottom" },
+				"west": { "uv": [ 13, 0, 16, 16 ], "texture": "#bottom" },
+				"east": { "uv": [ 16, 0, 13, 16 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 0.5, 0, 3 ],
+			"to": [ 2.5, 2, 13 ],
+			"faces": {
+				"down": { "uv": [ 14.5, 7.5, 16, 9.5 ], "texture": "#bottom" },
+				"up": { "uv": [ 0, 2, 3, 2.5 ], "texture": "#bottom" },
+				"west": { "uv": [ 3, 14, 13, 16 ], "texture": "#bottom" },
+				"east": { "uv": [ 13, 14, 3, 16 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 1.5, 2, 3 ],
+			"to": [ 2, 10, 13 ],
+			"faces": {
+				"west": { "uv": [ 3, 6, 13, 14 ], "texture": "#bottom" },
+				"east": { "uv": [ 13, 6, 3, 14 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 1.1, 12, 5.75 ],
+			"to": [ 1.9, 16, 6.55 ],
+			"faces": {
+				"north": { "uv": [ 7, 0, 6, 4 ], "texture": "#bottom" },
+				"south": { "uv": [ 6, 0, 7, 4 ], "texture": "#bottom" },
+				"west": { "uv": [ 6, 0, 7, 4 ], "texture": "#bottom" },
+				"east": { "uv": [ 7, 0, 6, 4 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 1.1, 12, 9.5 ],
+			"to": [ 1.9, 16, 10.3 ],
+			"faces": {
+				"north": { "uv": [ 7, 0, 6, 4 ], "texture": "#bottom" },
+				"south": { "uv": [ 9, 0, 10, 4 ], "texture": "#bottom" },
+				"west": { "uv": [ 6, 0, 7, 4 ], "texture": "#bottom" },
+				"east": { "uv": [ 7, 0, 6, 4 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 0, 5, 0 ],
+			"to": [ 3, 8, 2 ],
+			"faces": {
+				"down": { "uv": [ 0, 8, 2, 8.5 ], "texture": "#bottom" },
+				"up": { "uv": [ 0, 8, 2, 8.5 ], "texture": "#bottom" },
+				"north": { "uv": [ 0, 8, 0.5, 11 ], "texture": "#bottom" },
+				"south": { "uv": [ 1.5, 8, 2, 11 ], "texture": "#bottom" },
+				"west": { "uv": [ 0, 8, 2, 11 ], "texture": "#bottom" },
+				"east": { "uv": [ 2, 8, 0, 11 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"__comment": "bar1",
+			"from": [ 0.76, 5.5, 1.5 ],
+			"to": [ 2.24, 6.5, 14.5 ],
+			"rotation": { "origin": [ 0, 6, 8 ], "axis": "x", "angle": -45 },
+			"faces": {
+				"down": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom" },
+				"up": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom" },
+				"west": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom", "rotation": 90 },
+				"east": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "bar2",
+			"from": [ 0.75, 5.5, 1.5 ],
+			"to": [ 2.25, 6.5, 14.5 ],
+			"rotation": { "origin": [ 0, 6, 8 ], "axis": "x", "angle": 45 },
+			"faces": {
+				"down": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom" },
+				"up": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom" },
+				"west": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom", "rotation": 90 },
+				"east": { "uv": [ 6, 0, 7, 3.5 ], "texture": "#bottom", "rotation": 90 }
+			}
+		}
+	]
+}

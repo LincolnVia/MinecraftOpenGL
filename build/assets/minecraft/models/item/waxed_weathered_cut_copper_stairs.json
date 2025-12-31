@@ -1,0 +1,8 @@
+{
+"parent": "minecraft:item/_bdc/infested_stairs",
+	"textures": {
+		"top": "minecraft:block/weathered_cut_copper",
+		"bottom": "minecraft:block/weathered_cut_copper",
+		"side": "minecraft:block/weathered_cut_copper"
+	}
+}

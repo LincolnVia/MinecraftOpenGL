@@ -1,0 +1,39 @@
+{
+	"__comment": "Designed by Eskimojo14 with Cubik Studio - http://bdcraft.net",
+	"textures": {
+		"particle": "#bars"
+	},
+	"elements": [
+		{
+			"from": [ 7.25, 0, 12.5 ],
+			"to": [ 8.75, 16, 14 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 2, 2 ], "texture": "#bars", "cullface": "down" },
+				"up": { "uv": [ 0, 0, 2, 2 ], "texture": "#bars", "cullface": "up" },
+				"north": { "uv": [ 0, 13, 16, 14.5 ], "texture": "#bars", "rotation": 270 },
+				"south": { "uv": [ 0, 10, 16, 11.5 ], "texture": "#bars", "rotation": 270 },
+				"west": { "uv": [ 0, 11.5, 16, 13 ], "texture": "#bars", "rotation": 270 },
+				"east": { "uv": [ 0, 14.5, 16, 16 ], "texture": "#bars", "rotation": 270 }
+			}
+		},
+		{
+			"from": [ 7, 7, 9 ],
+			"to": [ 9, 9, 16 ],
+			"faces": {
+				"down": { "uv": [ 9, 5, 16, 7 ], "texture": "#bars", "rotation": 270 },
+				"up": { "uv": [ 0, 5, 7, 7 ], "texture": "#bars", "rotation": 270 },
+				"south": { "uv": [ 0, 0, 2, 2 ], "texture": "#bars", "cullface": "south" },
+				"west": { "uv": [ 9, 7, 16, 9 ], "texture": "#bars" },
+				"east": { "uv": [ 0, 7, 7, 9 ], "texture": "#bars" }
+			}
+		},
+		{
+			"from": [ 7, 7, 7 ],
+			"to": [ 9, 9, 9 ],
+			"faces": {
+				"west": { "uv": [ 7, 7, 9, 9 ], "texture": "#bars" },
+				"east": { "uv": [ 7, 7, 9, 9 ], "texture": "#bars" }
+			}
+		}
+	]
+}

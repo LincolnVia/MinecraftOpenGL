@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+	"parent": "block/cyan_candle_two_candles",
+	"textures": {
+		"particle": "block/candle",
+		"all": "block/_bdc/candles_lit_01"
+	}
+}

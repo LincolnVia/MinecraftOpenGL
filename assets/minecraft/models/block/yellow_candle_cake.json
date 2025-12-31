@@ -1,0 +1,41 @@
+{
+	"__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/cake_top",
+		"candle": "block/_bdc/candles_02"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Element",
+			"from": [ 7, 8, 7 ],
+			"to": [ 9, 14, 9 ],
+			"faces": {
+				"up": { "uv": [ 14, 6, 16, 8 ], "texture": "#candle" },
+				"north": { "uv": [ 14, 8, 16, 14 ], "texture": "#candle" },
+				"south": { "uv": [ 14, 8, 16, 14 ], "texture": "#candle" },
+				"west": { "uv": [ 14, 8, 16, 14 ], "texture": "#candle" },
+				"east": { "uv": [ 14, 8, 16, 14 ], "texture": "#candle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 7.5, 14, 8 ],
+			"to": [ 8.5, 15, 8.001 ],
+			"rotation": { "origin": [ 8, 14, 8 ], "axis": "y", "angle": -45 },
+			"faces": {
+				"north": { "uv": [ 0, 5, 1, 6 ], "texture": "#candle" },
+				"south": { "uv": [ 0, 5, 1, 6 ], "texture": "#candle" }
+			}
+		},
+		{
+			"__comment": "Element",
+			"from": [ 7.5, 14, 8 ],
+			"to": [ 8.5, 15, 8.001 ],
+			"rotation": { "origin": [ 8, 14, 8 ], "axis": "y", "angle": 45 },
+			"faces": {
+				"north": { "uv": [ 0, 5, 1, 6 ], "texture": "#candle" },
+				"south": { "uv": [ 0, 5, 1, 6 ], "texture": "#candle" }
+			}
+		}
+	]
+}

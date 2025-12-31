@@ -1,0 +1,126 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Designed by HanFox for BDcraft",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#planks"
+  },
+  "elements": [
+    {
+      "name": "shelf_top",
+      "from": [1, 12, 11],
+      "to": [16, 16, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [9, 14, 13.5]},
+      "faces": {
+        "north": {"uv": [1.5, 0, 15, 8], "texture": "#planks"},
+        "south": {"uv": [1, 0, 14.5, 4], "texture": "#all", "cullface": "south"},
+        "up": {"uv": [1, 8, 14.5, 16], "texture": "#planks", "cullface": "up"},
+        "down": {"uv": [1, 0, 14.5, 8], "texture": "#planks"}
+      }
+    },
+    {
+      "name": "shelf_top_edge",
+      "from": [0, 12, 11],
+      "to": [1, 16, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0.5, 14, 13.5]},
+      "faces": {
+        "north": {"uv": [15, 0, 16, 8], "texture": "#planks"},
+        "south": {"uv": [0, 0, 1, 4], "texture": "#all", "cullface": "south"},
+        "west": {"uv": [0, 12, 5, 16], "texture": "#all", "cullface": "west"},
+        "up": {"uv": [0, 8, 1, 16], "texture": "#planks", "cullface": "up"},
+        "down": {"uv": [15, 0, 16, 8], "texture": "#planks"}
+      }
+    },
+    {
+      "name": "shelf_bottom",
+      "from": [1, 0, 11],
+      "to": [16, 4, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 13.5]},
+      "faces": {
+        "north": {"uv": [1.5, 8, 15, 16], "texture": "#planks"},
+        "south": {"uv": [1, 8, 14.5, 16], "texture": "#planks", "cullface": "south"},
+        "up": {"uv": [1, 0, 14.5, 8], "texture": "#planks"},
+        "down": {"uv": [1, 0, 14.5, 8], "texture": "#planks", "cullface": "down"}
+      }
+    },
+    {
+      "name": "shelf_bottom_edge",
+      "from": [0, 0, 11],
+      "to": [1, 4, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [-9, 2, 13.5]},
+      "faces": {
+        "north": {"uv": [15, 8, 16, 16], "texture": "#planks"},
+        "south": {"uv": [0, 8, 1, 16], "texture": "#planks", "cullface": "south"},
+        "west": {"uv": [11, 12, 16, 16], "texture": "#all", "cullface": "west"},
+        "up": {"uv": [0, 0, 1, 8], "texture": "#planks"},
+        "down": {"uv": [0, 0, 1, 8], "texture": "#planks", "cullface": "down"}
+      }
+    },
+    {
+      "name": "shelf_inner_1",
+      "from": [11, 4, 13.25],
+      "to": [16, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [14, 8, 14.625]},
+      "faces": {
+        "south": {"uv": [11, 4, 15, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_inner_2",
+      "from": [6, 4, 13.25],
+      "to": [10, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 14.625]},
+      "faces": {
+        "south": {"uv": [11, 4, 14, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_inner_3",
+      "from": [1, 4, 13.25],
+      "to": [5, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [5, 8, 14.625]},
+      "faces": {
+        "south": {"uv": [15, 4, 11, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_inner_front",
+      "from": [1, 4, 13.25],
+      "to": [16, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [13, 8, 14.625]},
+      "faces": {
+        "north": {"uv": [3, 4, 5, 12], "texture": "#all"}
+      }
+    },
+    {
+      "name": "shelf_bar_left",
+      "from": [0, 4, 13],
+      "to": [1, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [0.5, 8, 14.5]},
+      "faces": {
+        "north": {"uv": [0, 4, 1, 12], "texture": "#all"},
+        "east": {"uv": [0.5, 4, 1, 12], "texture": "#all"},
+        "south": {"uv": [0, 4, 1, 12], "texture": "#planks", "cullface": "south"},
+        "west": {"uv": [0, 4, 0.5, 12], "texture": "#all", "cullface": "west"}
+      }
+    },
+    {
+      "name": "shelf_bar_1",
+      "from": [10, 4, 13],
+      "to": [11, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [11.5, 8, 14.5]},
+      "faces": {
+        "south": {"uv": [10, 4, 11, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_bar_2",
+      "from": [5, 4, 13],
+      "to": [6, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [6.5, 8, 14.5]},
+      "faces": {
+        "south": {"uv": [10, 4, 11, 12], "texture": "#all", "cullface": "south"}
+      }
+    }
+  ]
+}

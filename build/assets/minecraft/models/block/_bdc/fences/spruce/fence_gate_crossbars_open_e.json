@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/_bdc/fences/_all/fence_gate_crossbars_open_e",
+	"textures": {
+		"texture": "minecraft:block/_bdc/fence_button_spruce"
+	}
+}

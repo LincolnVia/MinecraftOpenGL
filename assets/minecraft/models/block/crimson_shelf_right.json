@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_shelf_right",
+  "textures": {
+    "all": "minecraft:block/crimson_shelf",
+    "planks": "minecraft:block/crimson_planks"
+  }
+}

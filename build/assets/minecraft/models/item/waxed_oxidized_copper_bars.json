@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/_bdc/template_bars",
+  "textures": {
+    "bars": "minecraft:block/oxidized_copper_bars"
+  }
+}

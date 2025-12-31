@@ -1,0 +1,6 @@
+{
+	"multipart": [
+		{ "apply": { "model": "block/torch" } },
+		{ "apply": { "model": "block/_bdc/torch_flame" } }
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/_bdc/wood_button_inventory",
+	"textures": {
+		"particle": "block/oak_planks",
+		"texture": "block/_bdc/fence_button_oak"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"multipart": [
+		{   "apply": { "model": "block/cake" }},
+		{   "when": { "lit": "false" },
+			"apply": { "model": "block/black_candle_cake" }
+		},
+		{   "when": { "lit": "true" },
+			"apply": { "model": "block/black_candle_cake_lit" }
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+  "__comment": "Designed by Sphax with Cubik Studio - https://cubik.studio",
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "minecraft:item/stick",
+    "torch": "minecraft:block/torch",
+    "iron": "minecraft:block/iron_block"
+  },
+  "elements": [
+    {
+      "__comment": "attach",
+      "from": [ 0, 7.5, 6.5 ],
+      "to": [ 3.5, 9, 7 ],
+      "faces": {
+        "down": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron" },
+        "up": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron" },
+        "north": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron" },
+        "west": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron", "cullface": "west" }
+      }
+    },
+    {
+      "__comment": "attach",
+      "from": [ 0, 7.5, 9 ],
+      "to": [ 3.5, 9, 9.5 ],
+      "faces": {
+        "down": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron" },
+        "up": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron" },
+        "north": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron" },
+        "west": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron", "cullface": "west" }
+      }
+    },
+    {
+      "__comment": "attach",
+      "from": [ 3.5, 7.5, 6.5 ],
+      "to": [ 4, 9, 9.5 ],
+      "faces": {
+        "down": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron" },
+        "up": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#iron" },
+        "north": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron" },
+        "south": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron" },
+        "west": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron", "cullface": "west" },
+        "east": { "uv": [ 7.5, 0, 8, 2.5 ], "texture": "#iron" }
+      }
+    },
+    {
+      "__comment": "stick*",
+      "from": [ -0.5, 4.5, 7.25 ],
+      "to": [ 1, 15.5, 8.75 ],
+      "rotation": { "origin": [ -0.5, 4.5, 7.25 ], "axis": "z", "angle": -22.5 },
+      "faces": {
+        "down": { "uv": [ 7, 3, 9, 5 ], "texture": "#torch" },
+        "up": { "uv": [ 7, 3, 9, 5 ], "texture": "#torch" },
+        "north": { "uv": [ 7, 5, 9, 16 ], "texture": "#torch" },
+        "south": { "uv": [ 7, 5, 9, 16 ], "texture": "#torch" },
+        "west": { "uv": [ 7, 5, 9, 16 ], "texture": "#torch" },
+        "east": { "uv": [ 7, 5, 9, 16 ], "texture": "#torch" }
+      }
+    },
+    {
+      "__comment": "torch*",
+      "from": [ -1, 11, 6.75 ],
+      "to": [ 1.5, 15, 9.25 ],
+      "rotation": { "origin": [ -0.5, 4.5, 7.25 ], "axis": "z", "angle": -22.5 },
+      "faces": {
+        "down": { "uv": [ 0, 0, 3, 3 ], "texture": "#torch", "cullface": "down" },
+        "up": { "uv": [ 3, 0, 6, 3 ], "texture": "#torch" },
+        "north": { "uv": [ 6.5, 5.5, 9.5, 9.5 ], "texture": "#torch" },
+        "south": { "uv": [ 6.5, 5.5, 9.5, 9.5 ], "texture": "#torch" },
+        "west": { "uv": [ 6.5, 5.5, 9.5, 9.5 ], "texture": "#torch" },
+        "east": { "uv": [ 6.5, 5.5, 9.5, 9.5 ], "texture": "#torch" }
+      }
+    }
+  ]
+}

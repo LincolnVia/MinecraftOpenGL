@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/_bdc/fences/_all/fence_side_ne",
+	"textures": {
+		"texture": "minecraft:block/_bdc/fence_button_crimson"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "__comment": "Model by HanFox - BDcraft.net.",
+    "parent": "item/_bdc/hanging_sign",
+    "textures": {
+        "texture": "item/acacia_sign"
+    }
+}

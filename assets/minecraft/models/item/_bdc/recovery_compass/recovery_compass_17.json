@@ -1,0 +1,9 @@
+{
+    "__comment":"Designed by HanFox with Cubik Studio - http://bdcraft.net",
+    "parent":"item/_bdc/compass/compass_17",
+    "textures": {
+        "pointer":"item/_bdc/recovery_compass_pointer",
+        "compass":"item/_bdc/recovery_compass",
+        "face":"item/_bdc/recovery_compass_face"
+    }
+}

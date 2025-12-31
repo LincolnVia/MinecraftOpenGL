@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/_bdc/bars/template_bars_top_ns",
+  "textures": {
+    "particle": "#bars",
+    "bars": "block/copper_bars"
+  }
+}

@@ -1,0 +1,28 @@
+{
+	"multipart": [
+		{	"when": { "facing": "east" },
+		 	"apply": { "model": "block/copper_wall_torch" }
+		},
+		{	"when": { "facing": "east" },
+		 	"apply": { "model": "block/_bdc/copper_torch_flame_wall" }
+		},
+		{	"when": { "facing": "south" },
+		 	"apply": { "model": "block/copper_wall_torch", "y": 90 }
+		},
+		{	"when": { "facing": "south" },
+		 	"apply": { "model": "block/_bdc/copper_torch_flame_wall", "y": 90 }
+		},
+		{	"when": { "facing": "west" },
+		 	"apply": { "model": "block/copper_wall_torch", "y": 180 }
+		},
+		{	"when": { "facing": "west" },
+		 	"apply": { "model": "block/_bdc/copper_torch_flame_wall", "y": 180 }
+		},
+		{	"when": { "facing": "north" },
+		 	"apply": { "model": "block/copper_wall_torch", "y": 270 }
+		},
+		{	"when": { "facing": "north" },
+		 	"apply": { "model": "block/_bdc/copper_torch_flame_wall", "y": 270 }
+		} 
+	]
+}

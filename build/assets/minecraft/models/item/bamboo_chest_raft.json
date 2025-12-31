@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/_bdc/chest_raft",
+    "textures": {
+        "texture": "minecraft:item/bamboo_raft"
+    }
+}

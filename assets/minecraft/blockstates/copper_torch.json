@@ -1,0 +1,6 @@
+{
+	"multipart": [
+		{ "apply": { "model": "block/copper_torch" } },
+		{ "apply": { "model": "block/_bdc/copper_torch_flame" } }
+	]
+}

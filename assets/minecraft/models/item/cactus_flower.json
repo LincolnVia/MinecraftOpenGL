@@ -1,0 +1,7 @@
+{
+	"__comment": "Designed by Sphax for PureBDcraft - https://bdcraft.net",
+	"parent": "item/_bdc/item_cross",
+	"textures": {
+		"layer0": "block/cactus_flower"
+	}
+}

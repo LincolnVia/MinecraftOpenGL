@@ -1,0 +1,7 @@
+{
+    "ambientocclusion": false,
+    "parent": "minecraft:block/flower_pot_cross",
+    "textures": {
+        "plant": "block/mangrove_propagule"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "__comment": "Designed by Sphax",
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "lit_log": "minecraft:block/campfire_log_lit"
+  }
+}

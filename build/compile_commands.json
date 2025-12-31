@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/main.cpp.o -c /home/volt/Programming/opengl/main.cpp",
+  "file": "/home/volt/Programming/opengl/main.cpp",
+  "output": "CMakeFiles/voxel.dir/main.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o -c /home/volt/Programming/opengl/src/Engine/Engine.cpp",
+  "file": "/home/volt/Programming/opengl/src/Engine/Engine.cpp",
+  "output": "CMakeFiles/voxel.dir/src/Engine/Engine.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/cc  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src  -o CMakeFiles/voxel.dir/src/glad.c.o -c /home/volt/Programming/opengl/src/glad.c",
+  "file": "/home/volt/Programming/opengl/src/glad.c",
+  "output": "CMakeFiles/voxel.dir/src/glad.c.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/src/basicVerts.cpp.o -c /home/volt/Programming/opengl/src/basicVerts.cpp",
+  "file": "/home/volt/Programming/opengl/src/basicVerts.cpp",
+  "output": "CMakeFiles/voxel.dir/src/basicVerts.cpp.o"
+},
+{
+  "directory": "/home/volt/Programming/opengl/build",
+  "command": "/usr/bin/c++  -I/home/volt/Programming/opengl/include -I/home/volt/Programming/opengl/src -std=gnu++17 -o CMakeFiles/voxel.dir/src/World/World.cpp.o -c /home/volt/Programming/opengl/src/World/World.cpp",
+  "file": "/home/volt/Programming/opengl/src/World/World.cpp",
+  "output": "CMakeFiles/voxel.dir/src/World/World.cpp.o"
+}
+]

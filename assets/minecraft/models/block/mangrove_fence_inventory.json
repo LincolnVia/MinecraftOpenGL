@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/_bdc/fences/_all/fence_inventory",
+	"textures": {
+		"texture": "minecraft:block/_bdc/fence_button_mangrove"
+	}
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/_bdc/boat",
+    "textures": {
+        "texture": "minecraft:item/mangrove_boat"
+    }
+}

@@ -1,0 +1,56 @@
+{
+	"__comment": "Designed by HanFox for BDcraft - https://bdcraft.net",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/pale_oak_door_bottom",
+		"bottom": "block/pale_oak_door_bottom"
+	},
+	"elements": [
+		{
+			"from": [ 0, 15, 0 ],
+			"to": [ 3, 16, 1 ],
+			"faces": {
+				"down": { "uv": [ 0, 1, 1, 0.75 ], "texture": "#bottom", "rotation": 270 },
+				"north": { "uv": [ 0, 0, 0.25, 1 ], "texture": "#bottom" },
+				"south": { "uv": [ 0.75, 0, 1, 1 ], "texture": "#bottom" },
+				"west": { "uv": [ 0, 0, 1, 1 ], "texture": "#bottom" },
+				"east": { "uv": [ 1, 0, 0, 1 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 0, 4, 0 ],
+			"to": [ 3, 6, 2 ],
+			"faces": {
+				"down": { "uv": [ 0, 12, 2, 11.5 ], "texture": "#bottom", "rotation": 270 },
+				"up": { "uv": [ 0, 10, 2, 10.5 ], "texture": "#bottom" },
+				"north": { "uv": [ 0, 10, 0.5, 12 ], "texture": "#bottom" },
+				"south": { "uv": [ 1.5, 10, 2, 12 ], "texture": "#bottom" },
+				"west": { "uv": [ 0, 10, 2, 12 ], "texture": "#bottom" },
+				"east": { "uv": [ 2, 10, 0, 12 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"from": [ 0.5, 0, 0 ],
+			"to": [ 2.5, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 13, 4.5, 16, 5 ], "texture": "#bottom", "cullface": "down" },
+				"north": { "uv": [ 0.25, 0, 0, 16 ], "texture": "#bottom" },
+				"south": { "uv": [ 13, 4.5, 16, 5 ], "texture": "#bottom" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom" },
+				"east": { "uv": [ 16, 0, 0, 16 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"__comment": "InnerHandle",
+			"from": [ 0, 15, 11 ],
+			"to": [ 3, 16, 13 ],
+			"faces": {
+				"down": { "uv": [ 13, 1, 11, 0.5 ], "texture": "#bottom", "rotation": 90 },
+				"north": { "uv": [ 11, 0, 11.25, 0.5 ], "texture": "#bottom" },
+				"south": { "uv": [ 12.5, 0, 12.75, 0.5 ], "texture": "#bottom" },
+				"west": { "uv": [ 11, 0, 13, 1 ], "texture": "#bottom" },
+				"east": { "uv": [ 13, 0, 11, 1 ], "texture": "#bottom" }
+			}
+		}
+	]
+}

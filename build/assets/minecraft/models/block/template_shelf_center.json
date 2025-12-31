@@ -1,0 +1,92 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Designed by HanFox for BDcraft",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#planks"
+  },
+  "elements": [
+    {
+      "name": "shelf_top",
+      "from": [0, 12, 11],
+      "to": [16, 16, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [9, 14, 13.5]},
+      "faces": {
+        "north": {"uv": [1.5, 0, 14.5, 8], "texture": "#planks"},
+        "east": {"uv": [0, 12, 5, 16], "texture": "#all", "cullface": "east"},
+        "south": {"uv": [1.5, 0, 14.5, 4], "texture": "#all", "cullface": "south"},
+        "west": {"uv": [0, 12, 5, 16], "texture": "#all", "cullface": "west"},
+        "up": {"uv": [1.5, 8, 14.5, 16], "texture": "#planks", "cullface": "up"},
+        "down": {"uv": [1, 0, 14.5, 8], "texture": "#planks"}
+      }
+    },
+    {
+      "name": "shelf_bottom",
+      "from": [0, 0, 11],
+      "to": [16, 4, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [7, 2, 13.5]},
+      "faces": {
+        "north": {"uv": [1.5, 8, 14.5, 16], "texture": "#planks"},
+        "east": {"uv": [11, 12, 16, 16], "texture": "#all", "cullface": "east"},
+        "south": {"uv": [1.5, 8, 14.5, 16], "texture": "#planks", "cullface": "south"},
+        "west": {"uv": [11, 12, 16, 16], "texture": "#all", "cullface": "west"},
+        "up": {"uv": [1.5, 0, 14.5, 8], "texture": "#planks"},
+        "down": {"uv": [1.5, 0, 14.5, 8], "texture": "#planks", "cullface": "down"}
+      }
+    },
+    {
+      "name": "shelf_inner_1",
+      "from": [11, 4, 13.25],
+      "to": [16, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [14, 8, 14.625]},
+      "faces": {
+        "south": {"uv": [11, 4, 15, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_inner_2",
+      "from": [6, 4, 13.25],
+      "to": [10, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [9, 8, 14.625]},
+      "faces": {
+        "south": {"uv": [11, 4, 14, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_inner_3",
+      "from": [0, 4, 13.25],
+      "to": [5, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [5, 8, 14.625]},
+      "faces": {
+        "south": {"uv": [10.5, 4, 14.5, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_inner_front",
+      "from": [0, 4, 13.25],
+      "to": [16, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [13, 8, 14.625]},
+      "faces": {
+        "north": {"uv": [2.5, 4, 3.5, 12], "texture": "#all"}
+      }
+    },
+    {
+      "name": "shelf_bar_1",
+      "from": [10, 4, 13],
+      "to": [11, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [11.5, 8, 14.5]},
+      "faces": {
+        "south": {"uv": [10, 4, 11, 12], "texture": "#all", "cullface": "south"}
+      }
+    },
+    {
+      "name": "shelf_bar_2",
+      "from": [5, 4, 13],
+      "to": [6, 12, 16],
+      "rotation": {"angle": 0, "axis": "y", "origin": [6.5, 8, 14.5]},
+      "faces": {
+        "south": {"uv": [10, 4, 11, 12], "texture": "#all", "cullface": "south"}
+      }
+    }
+  ]
+}

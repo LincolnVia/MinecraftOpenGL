@@ -1,0 +1,6 @@
+{
+    "parent": "item/_bdc/hanging_sign",
+    "textures": {
+        "texture": "item/dark_oak_sign"
+    }
+}

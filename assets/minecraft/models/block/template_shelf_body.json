@@ -1,0 +1,8 @@
+{
+  "format_version": "1.21.6",
+  "credit": "Designed by HanFox for BDcraft",
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#planks"
+  }
+}

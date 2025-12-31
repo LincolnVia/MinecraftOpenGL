@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/_bdc/infested_block_backface",
+	"textures": {
+		"texture": "minecraft:block/copper_grate"
+	}
+}

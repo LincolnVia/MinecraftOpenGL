@@ -1,0 +1,81 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"particle": "#texture",
+		"overlay": "minecraft:block/_bdc/monster_egg"
+	},
+	"elements": [
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 16.01, 16.01, 16.01 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" }
+			}
+		},
+		{
+			"__comment": "Backface Bottom",
+			"from": [ 0, 0.0001, 0 ],
+			"to": [ 16, 0.0011, 16 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "down" }
+			}
+		},
+		{
+			"__comment": "Backface Top",
+			"from": [ 0, 15.999, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "up" }
+			}
+		},
+		{
+			"__comment": "Backface East",
+			"from": [ 15.999, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"west": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "east" }
+			}
+		},
+		{
+			"__comment": "Backface West",
+			"from": [ 0.001, 0, 0 ],
+			"to": [ 0.002, 16, 16 ],
+			"faces": {
+				"east": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "west" }
+			}
+		},
+		{
+			"__comment": "Backface North",
+			"from": [ 0, 0, 0.0001 ],
+			"to": [ 16, 16, 0.0011 ],
+			"faces": {
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "north" }
+			}
+		},
+		{
+			"__comment": "Backface South",
+			"from": [ 0, 0, 15.999 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "south" }
+			}
+		}
+	]
+}

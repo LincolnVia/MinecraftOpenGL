@@ -1,0 +1,10 @@
+{
+	"__comment": "Designed by Sphax with BDcraft Cubik PRO 0.76 Beta - http://bdcraft.net",
+	"parent": "minecraft:block/copper_door_top_right",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#top",
+		"bottom": "minecraft:block/weathered_copper_door_bottom",
+		"top": "minecraft:block/weathered_copper_door_top"
+	}
+}

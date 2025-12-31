@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/_bdc/bars/template_bars_cap_west",
+  "textures": {
+    "particle": "#bars",
+    "bars": "block/copper_bars"
+  }
+}

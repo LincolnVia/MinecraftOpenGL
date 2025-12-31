@@ -1,0 +1,6 @@
+{
+	"parent": "block/_bdc/flame",
+	"textures": {
+		"fire": "block/_bdc/copper_torch_flame"
+	}
+}

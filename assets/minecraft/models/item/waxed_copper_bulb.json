@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/_bdc/infested_block",
+	"textures": {
+		"texture": "minecraft:block/copper_bulb"
+	}
+}

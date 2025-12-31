@@ -1,0 +1,9 @@
+{
+  "__comment": "Designed by Sphax",
+  "parent": "minecraft:block/template_campfire",
+  "textures": {
+    "lit_log": "minecraft:block/soul_campfire_log_lit",
+    "fire_0": "minecraft:block/soul_fire_0",
+    "fire_1": "minecraft:block/soul_fire_1"
+  }
+}

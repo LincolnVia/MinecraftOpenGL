@@ -1,0 +1,35 @@
+{
+	"__comment": "Designed by HanFox with Cubik - http://bdcraft.net",
+	"parent": "minecraft:block/block",
+	"textures": {
+		"particle": "#texture"
+	},
+	"elements": [
+		{
+			"__comment": "Right-hand post",
+			"from": [ 0, 2, 7 ],
+			"to": [ 2, 13, 9 ],
+			"faces": {
+				"down": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"north": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture", "cullface": "south" },
+				"west": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Left-hand post",
+			"from": [ 14, 2, 7 ],
+			"to": [ 16, 13, 9 ],
+			"faces": {
+				"down": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 0, 12, 4, 16 ], "texture": "#texture" },
+				"north": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture", "cullface": "north" },
+				"south": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 6.5, 0, 9.5, 16 ], "texture": "#texture" }
+			}
+		}
+	]
+}

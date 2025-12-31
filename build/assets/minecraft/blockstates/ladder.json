@@ -1,0 +1,40 @@
+{
+    "variants": {
+        "facing=north": [
+			{ "model": "block/ladder", "weight": 40 },
+			{ "model": "block/_bdc/ladder_01", "weight": 2 },
+			{ "model": "block/_bdc/ladder_02", "weight": 2 },
+			{ "model": "block/_bdc/ladder_03", "weight": 2 },
+			{ "model": "block/_bdc/ladder_04", "weight": 2 },
+			{ "model": "block/_bdc/ladder_05", "weight": 2 },
+			{ "model": "block/_bdc/ladder_06", "weight": 2 }
+			],
+        "facing=east":  [
+			{ "model": "block/ladder", "weight": 40, "y": 90 },
+			{ "model": "block/_bdc/ladder_01", "weight": 2, "y": 90 },
+			{ "model": "block/_bdc/ladder_02", "weight": 2, "y": 90 },
+			{ "model": "block/_bdc/ladder_03", "weight": 2, "y": 90 },
+			{ "model": "block/_bdc/ladder_04", "weight": 2, "y": 90 },
+			{ "model": "block/_bdc/ladder_05", "weight": 2, "y": 90 },
+			{ "model": "block/_bdc/ladder_06", "weight": 2, "y": 90 }
+			],
+        "facing=south": [
+			{ "model": "block/ladder", "weight": 40, "y": 180 },
+			{ "model": "block/_bdc/ladder_01", "weight": 2, "y": 180 },
+			{ "model": "block/_bdc/ladder_02", "weight": 2, "y": 180 },
+			{ "model": "block/_bdc/ladder_03", "weight": 2, "y": 180 },
+			{ "model": "block/_bdc/ladder_04", "weight": 2, "y": 180 },
+			{ "model": "block/_bdc/ladder_05", "weight": 2, "y": 180 },
+			{ "model": "block/_bdc/ladder_06", "weight": 2, "y": 180 }
+			],
+        "facing=west":  [
+			{ "model": "block/ladder", "weight": 40, "y": 270 },
+			{ "model": "block/_bdc/ladder_01", "weight": 2, "y": 270 },
+			{ "model": "block/_bdc/ladder_02", "weight": 2, "y": 270 },
+			{ "model": "block/_bdc/ladder_03", "weight": 2, "y": 270 },
+			{ "model": "block/_bdc/ladder_04", "weight": 2, "y": 270 },
+			{ "model": "block/_bdc/ladder_05", "weight": 2, "y": 270 },
+			{ "model": "block/_bdc/ladder_06", "weight": 2, "y": 270 }
+			]
+    }
+}

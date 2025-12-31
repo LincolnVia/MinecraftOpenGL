@@ -1,0 +1,22 @@
+{
+  "comment": "Designed by Eskimojo14 with Cubik Studio - https://cubik.studio",
+  "createdWith": "Cubik Studio 2.6.384 Beta",
+  "texture": "optifine/mob/quiver",
+  "textureSize": [512,512],
+  "submodels": [
+    {
+      "id": "Cube1",
+      "translate": [-3.99,0.01,5.99],
+      "boxes": [
+        {
+          "coordinates": [-8.02,-12.02,0.0,8.02,12.02,4.02],
+          "uvUp": [64,256,192,320],
+          "uvNorth": [256,320,384,512],
+          "uvSouth": [64,320,192,512],
+          "uvWest": [0,320,64,512],
+          "uvEast": [192,320,256,512]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/_bdc/chest_boat",
+    "textures": {
+        "texture": "minecraft:item/oak_boat"
+    }
+}

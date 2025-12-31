@@ -1,0 +1,4 @@
+/home/volt/Programming/opengl/CMakeFiles/voxel.dir
+/home/volt/Programming/opengl/CMakeFiles/copy_assets.dir
+/home/volt/Programming/opengl/CMakeFiles/edit_cache.dir
+/home/volt/Programming/opengl/CMakeFiles/rebuild_cache.dir

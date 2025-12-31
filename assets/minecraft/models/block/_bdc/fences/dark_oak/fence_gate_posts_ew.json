@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/_bdc/fences/_all/fence_gate_posts_ew",
+	"textures": {
+		"texture": "minecraft:block/_bdc/fence_button_dark_oak"
+	}
+}

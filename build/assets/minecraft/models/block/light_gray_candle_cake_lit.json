@@ -1,0 +1,8 @@
+{
+	"__comment": "Designed by HanFox with Cubik Studio - https://cubik.studio",
+	"parent": "block/light_gray_candle_cake",
+	"textures": {
+		"particle": "block/cake_top",
+		"candle": "block/_bdc/candles_lit_01"
+	}
+}

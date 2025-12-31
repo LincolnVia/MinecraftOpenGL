@@ -1,0 +1,34 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"particle": "#texture",
+		"overlay": "minecraft:block/_bdc/monster_egg",
+		"overlay_slab": "minecraft:block/_bdc/monster_egg_slab"
+	},
+	"elements": [
+		{
+			"from": [ -0.01, -0.01, -0.01 ],
+			"to": [ 16.01, 8.01, 16.01 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "#overlay" },
+				"north": { "uv": [ 0, 7.99, 16, 16 ], "texture": "#overlay_slab" },
+				"south": { "uv": [ 0, 7.99, 16, 16 ], "texture": "#overlay_slab" },
+				"west": { "uv": [ 0, 7.99, 16, 16 ], "texture": "#overlay_slab" },
+				"east": { "uv": [ 0, 7.99, 16, 16 ], "texture": "#overlay_slab" }
+			}
+		},
+		{
+			"from": [ 0, 0, 0 ],
+			"to": [ 16, 8, 16 ],
+			"faces": {
+				"down": { "uv": [ 0, 0, 16, 16 ], "texture": "texture" },
+				"up": { "uv": [ 0, 0, 16, 16 ], "texture": "texture" },
+				"north": { "uv": [ 0, 8, 16, 16 ], "texture": "texture" },
+				"south": { "uv": [ 0, 8, 16, 16 ], "texture": "texture" },
+				"west": { "uv": [ 0, 8, 16, 16 ], "texture": "texture" },
+				"east": { "uv": [ 0, 8, 16, 16 ], "texture": "texture" }
+			}
+		}
+	]
+}
