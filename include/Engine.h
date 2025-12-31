@@ -53,8 +53,28 @@ public:
     void init();
     void update();
     void render();
-    void DisplayFPS();
-
+    void DisplayFPS()
+{
+    static int frameCount = 0;
+    static double lastTime = glfwGetTime();
+    
+    frameCount++;
+    double currentTime = glfwGetTime();
+    double elapsed = currentTime - lastTime;
+    
+    if (elapsed >= 1.0) // Update every second
+    {
+        double fps = frameCount / elapsed;
+        printf("FPS: %.1f\n", fps);
+        
+        // Optional: Update window title
+        std::string title = "Engine - FPS: " + std::to_string(static_cast<int>(fps));
+        glfwSetWindowTitle(window, title.c_str());
+        
+        frameCount = 0;
+        lastTime = currentTime;
+    }
+}
     static void framebuffer_size_callback(GLFWwindow* window, int width, int height);
     static void mouse_callback(GLFWwindow* window, double xpos, double ypos);
     static void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
@@ -66,6 +86,10 @@ public:
     float lastX = SCR_WIDTH / 2.0f;
     float lastY = SCR_HEIGHT / 2.0f;
     bool firstMouse = true;
+
+
+        int frameCount = 0;
+
 
     GLFWwindow* getWindow(){ return window;}
    

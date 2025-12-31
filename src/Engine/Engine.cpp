@@ -38,6 +38,7 @@ void Engine::init() {
       glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
       glfwSetCursorPosCallback(window, mouse_callback);
       glfwSetScrollCallback(window, scroll_callback);
+        glfwSwapInterval(0);
 
 
       // tell GLFW to capture our mouse
@@ -77,7 +78,7 @@ void Engine::init() {
 
    
     world.Generate();
-    world.PrintChunks();
+    // world.PrintChunks();
  }
 
 
@@ -104,7 +105,8 @@ void Engine::update() {
         unlitShader->setMat4("view", view);
 
 
-// DisplayFPS();  
+  
+DisplayFPS();  
 }
 
 

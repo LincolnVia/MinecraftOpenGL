@@ -13,13 +13,13 @@ World::~World()
 void World::Generate()
 {
     // Generate all chunks in a grid
-    for(int x = -5; x <= 5; x++)
+    for(int x = -5; x <= worldSize; x++)
     {
-        for(int z = -5; z <= 5; z++)
+        for(int z = -5; z <= worldSize; z++)
         {
             ChunkData chunk = GenerateChunkAt(x , z );
              chunkList[{x, z}] = std::move(chunk);  // Use operator[] instead of emplace
-            printf("%d,%d \n",chunkKey(x,z));
+            // printf("%d,%d \n",chunkKey(x,z));
         }
     }
 }
